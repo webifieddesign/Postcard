@@ -104,6 +104,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Sh-Ze-x82"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yR-m9-Qos">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="177" width="234" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="jf1-mO-WQX"/>
                                 <exclude reference="HWV-Wb-pnp"/>
                                 <exclude reference="BoJ-W8-1a8"/>
+                                <exclude reference="1yR-m9-Qos"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="jf1-mO-WQX"/>
                                 <include reference="HWV-Wb-pnp"/>
                                 <include reference="BoJ-W8-1a8"/>
+                                <include reference="1yR-m9-Qos"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="dZN-lx-btx" id="35e-r2-mvm"/>
                         <outlet property="mailButton" destination="BoJ-W8-1a8" id="5vs-fq-rqK"/>
                         <outlet property="messageLabel" destination="HWV-Wb-pnp" id="8h0-kq-hbQ"/>
+                        <outlet property="nameLabel" destination="1yR-m9-Qos" id="Vo3-BJ-WBO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
